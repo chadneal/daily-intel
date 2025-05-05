@@ -31,6 +31,8 @@ def generate():
     """
 
     model = "gemini-2.0-flash"
+    # model = "gemini-2.5-pro-preview-03-25"
+
 
     # Initialize conversation history with the system instruction as the first user message
     conversation_history = [
